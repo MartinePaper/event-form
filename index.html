@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <title>Awesome Site Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="screen.css">
+</head>
+
+
+<body>
+
+<form action="">
+    <div>
+    <legend>Create a new event</legend>
+    </div>
+    <div>
+        <fieldset>
+            <label for="event-name">Event is called</label>
+            <input type="text" id="event-name" name="event-name" placeholder="e.g. Super Awesome Fun-Time"/>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <label for="event-address">It'll be held at</label>
+            <input type="text" id="event-address" name="event-address" placeholder="Address"/>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset class="nolabel">
+                <input type="text" id="city" name="city" placeholder="city"/>
+                <input type="text" id="zip" name="zip" placeholder="zip"/>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <label for="event-month">It'll be on</label>
+            <input type="text" id="event-month" name="event-month" placeholder="month"/>
+            <input type="text" id="event-date" name="event-date" placeholder="date"/>
+            <input type="text" id="event-year" name="event-year" placeholder="year"/>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset class="nolabel">
+        <input type="text" id="time" name="time" placeholder="time"/>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset class="radiobuttons">
+            <label for="privacy">Privacy</label>
+            <label for="private">
+                <input type="radio" checked="checked" name="privacy" value="private" id="private" /> Private
+            </label>
+            <label for="public">
+                <input type="radio" checked="unchecked" name="privacy" value="public" id="public" /> Public
+            </label>
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <label for="guests"></label>
+            <input type="checkbox" name="guests" value="guests">  Guests can invite friends
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <label for="drinks"></label>
+            <input type="checkbox" name="drinks" value="drinks">  Drinks will be free
+        </fieldset>
+    </div>
+    <div>
+        <fieldset>
+            <label for="dancing"></label>
+            <input type="checkbox" name="dancing" value="dancing">  There will be dancing
+        </fieldset>
+    </div>
+
+    <div class="submitbutton">
+        <input type="submit" id="submit" value="Make it so, computer">
+    </div>
+
+</form>
+
+
+
+</body>
+</html>

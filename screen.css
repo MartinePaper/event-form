@@ -1,0 +1,105 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background: orange;
+    }
+}
+
+body {
+  background: url(images/Cat-Party-Hat.jpeg) no-repeat fixed;
+  background-size: cover;
+}
+
+
+form {
+    width: 700px;
+    margin: 0 auto;
+}
+
+legend {
+    background-color:rgba(255,0,0,0.3);
+    text-decoration: none;
+    border: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+input {
+    border: 0px;
+
+}
+
+
+fieldset {
+    border: 1px solid gray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    background: white;
+}
+
+
+
+label {
+    position: absolute;
+}
+
+label+input {
+    padding-left: 150px;
+}
+
+.nolabel {
+    margin-left: 150px;
+}
+
+
+.radiobuttons label {
+position: static;
+}
+
+input[type="radio"] {
+    margin-left: 100px;
+
+}
+
+#zip {
+    margin-left: 0px;
+    border: 0px;
+}
+
+#event-name {
+    width: 90%;
+}
+
+#event-address {
+    width: 90%;
+}
+
+.submitbutton {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#submit {
+    width: 150px;
+    height: 50px;
+    border-radius: .6em;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
